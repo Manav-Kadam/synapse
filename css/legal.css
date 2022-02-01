@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --first:#0074e4;
+    --secondary:#edf2fa;
+    --turtury:#1074d1;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.none{
+    min-height: 100vh;
+    background:url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: column;
+    padding-left: 15%;
+    padding-bottom: 10%;
+}
+
+.note {
+  font-size: 8rem;
+  font-weight: 700;
+  margin-top: 10%;
+  color: #12213d;
+}
+
+.head {
+  padding-top: 2rem;
+  font-size: 2rem;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.weblink {
+  font-size: 2rem;
+  padding: 2rem 0;
+  color: #12213d;
+}
+#footer{
+  margin-top: 0;
+}
+.body {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+@media (max-width:991px) {
+  .none {
+    padding-right: 15%;
+  }
+
+  .note {
+    margin-top: 30%;
+    font-size: 10rem;
+  }
+
+  .head {
+    padding-top: 3rem;
+    font-size: 3rem;
+  }
+
+  .body {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width:500px){
+  .note{
+    font-size: 5rem;
+  }
+  .head {
+    font-size: 2.6rem;
+  }
+}
+
+
+#footer a{
+  display: none;
+}
+#footer .divident a{
+  display: block;
+}
+
+
+#home{
+  height: auto;
+}

@@ -1,0 +1,45 @@
+
+
+#contact{
+  background: url(../images/hero1.jpg) no-repeat;
+  background-position: center;
+  background-size:cover;
+  text-align:left;
+  padding-bottom: 5%;
+}
+
+#contact h1{
+  margin-top: 15%;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  opacity: 0.9;
+  margin-bottom: 4%;
+}
+
+#contact label{
+font-size: 2.2rem;
+font-weight: 500;
+}
+
+
+#contact input,#contact textarea{
+  background: #888;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 1rem;
+  width: 50%;
+  opacity: 0.7;
+  margin-bottom: 3%;
+}
+
+#contact input:focus,
+#contact input:active
+,#contact textarea:focus{
+  background: #d3d3d3;
+  opacity: 0.9;
+}
+
+#contact textarea{
+  margin-bottom: 5%;
+}
